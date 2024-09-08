@@ -1,0 +1,61 @@
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+body {
+    font-family: 'Lato',sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  
+
+.header{
+    background: rgb(250, 232, 219);
+    width: 1600px;
+height: 837px;
+}
+
+.mery-class{
+    color:rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+  list-style: none;
+  margin:40px;  
+}
+
+nav a{
+text-decoration: none;
+color: rgb(71, 71, 71);
+font-size: 20px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+}
+
+.button-class{
+    padding:18px 35px 19px 36px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    border-style: none;
+}
+
+.inside-mery{
+    color:rgb(253, 110, 10);
+}
