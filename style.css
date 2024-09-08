@@ -2,6 +2,7 @@ nav {
 display: flex;
 align-items: center;
 justify-content: space-between;
+padding:0px 230px;
 }
 
 body {
@@ -13,8 +14,12 @@ body {
 
 .header{
     background: rgb(250, 232, 219);
-    width: 1600px;
-height: 837px;
+    width: 1980px;
+    height: 837px;
+    background-image: url('/images/header_bg.png'),url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+
 }
 
 .mery-class{
@@ -46,16 +51,226 @@ line-height: 27px;
 text-align: left;
 }
 
+/*head-div-class*/
+
+.div-content{
+    margin:230px 850px 278px 230px;
+    max-width: 520px;
+}
+.div-greeting{
+color: rgb(71, 71, 71);
+font-size: 45px;
+font-weight: 600;
+line-height: 61px;
+margin-bottom: 5px;
+}
+
+.div-title{
+margin-top:0px;
+margin-bottom:20px;
+color: rgb(24, 24, 24);
+font-size: 85px;
+font-weight: 700;
+line-height: 116px;
+}
+
+.div-para{
+    margin-top:0px;
+    margin-bottom:30px;
+color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
 .button-class{
+    margin-top:0px;
+    width: 230px;
+height: 64px;
     padding:18px 35px 19px 36px;
     border-radius: 5px;
     background: rgb(253, 110, 10);
     color:rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
+    border-radius: 5px;
     border-style: none;
+    margin-right:30px;
+}
+
+.button-contact{
+    margin-left:0px;
+width: 160px;
+height: 64px;
+color: rgb(253, 110, 10);
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+box-sizing: border-box;
+border: 1px solid rgb(253, 110, 10);
+border-radius: 5px;
+}
+
+.div-content-picture .hardy-pic{
+position: absolute;
+width: 584px;
+height: 676px;
+left: 1300px;
+right: 38px;
+top: 161px;
+bottom: 3419px;
 }
 
 .inside-mery{
     color:rgb(253, 110, 10);
+}
+
+/*Main-part-from-here*/
+.sec-main{
+    margin:130px 400px;
+    border-radius: 10px;
+background: rgb(254, 238, 227);
+padding:131px 157px;
+}
+
+.div-main{
+    background-color:rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.div-main-heading{
+    margin-top:0px;
+color: rgb(24, 24, 24);
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+margin-bottom:30px;
+}
+
+.div-main-pera{
+    margin-top:0px;
+color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+margin-bottom:30px;
+}
+
+.div-main-footer-main{
+    text-align: center;
+    margin-top:0px;
+    display:flex;
+
+}
+
+.div-main-footer{
+    margin-left:7px;
+    margin-right:50px;
+
+}
+
+/*What_i-do-section*/
+
+.what-i-do{
+    color: rgb(24, 24, 24);
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+margin-bottom: 0px;
+}
+
+.what-i-do-pera{
+    margin:30px 345px;
+    color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+}
+
+ .skill-pic{
+  padding: 30px 193px 30px 30px;
+}
+
+.skill-title{
+    color: rgb(24, 24, 24);
+font-size: 20px;
+font-weight: 700;
+}
+
+.skill-pera{
+    margin:30px;
+    color: rgb(117, 117, 117);
+font-size: 16px;
+font-weight: 400;
+}
+
+.skill-main{
+    display:flex;
+    padding:50px 230px 50px 350px;
+  
+}
+
+.skill{
+    margin-right: 24px;
+text-align: center;
+width: 267px;
+height: 377px;
+border-radius: 5px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+}
+
+.resume{
+    color: rgb(24, 24, 24);
+font-size: 35px;
+font-weight: 700;
+ text-align: center;
+}
+
+.resume-title{
+color: rgb(71, 71, 71);
+font-size: 30px;
+font-weight: 700;
+text-align: left;
+}
+
+.resume-institute{
+    color: rgb(71, 71, 71);
+font-size: 25px;
+font-weight: 700;
+text-align: left;
+}
+
+.resume-description{
+    color: rgb(117, 117, 117);
+font-size: 20px;
+font-weight: 600;
+text-align: left;
+}
+
+.resume-pera{
+    color: rgb(117, 117, 117);
+    width: 511px;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+}
+
+.resume-container{
+    padding:113px 230px;
+    display:flex;
+    gap:50px;
+}
+
+.resume-container hr{
+margin-right:30px;
+width: 560px;
+border: 1px solid rgb(209, 209, 209);
+}
+#button-start{
+    text-align: center;
+  margin-left:50%;
 }
